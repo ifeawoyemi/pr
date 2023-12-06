@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+
+.wiglet-container {
+    height: 100;
+    background-color: #F8F9FB;
+    padding-left: 39px;
+    padding-top: 24px;
+}
+
+.welcome-container h1 {
+    font-weight: 500;
+    font-size: 32px;
+    color: #103333;
+    line-height: 44px;
+    padding-bottom: 6px;
+}
+
+.wing {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    /* gap: 25px; */
+}
+
+.balance-wing {
+    width: 500px;
+    height: 179px;
+    background-image: url('../images/bal-img.png');
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 48px 28px 28px;
+}
+
+.balance-wing h3 {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+
+.balance-wing h1 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 6px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.balance-wing input {
+    width: 116px;
+    height: 40px;
+    background-color: #F7FFEF;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    gap: 10px;
+    outline: none;
+}
+
+.img-container {
+    position: absolute;
+    left: 90.17px;
+    bottom: 11px;
+}
+
+.input-container input::placeholder {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.balance-wing button {
+    width: 110px;
+    height: 48px;
+    background-color: #F7FFEF;
+    border-radius: 10px;
+    border: none;
+    padding: 13px 33px;
+    gap: 8px;
+    margin-top: 40px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+
+.invest-wing {
+    background-image: url('../images/invest-bg.png');
+    background-repeat: no-repeat;
+    width: 470px;
+    margin-right: 39px;
+    border-radius: 12px;
+    padding: 34px 0 34px 28px;
+}
+
+.invest-wing h6 {
+    font-family: "Instrument Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.03em;
+    padding-bottom: 8px;
+}
+
+.invest-wing h1 {
+    font-family: "Instrument Sans";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: -0.03em;
+    padding-bottom: 6px;
+}
+
+.invest-wing input {
+    width: 86px;
+    height: 38px;
+    padding: 10px;
+    background-color: #FF673E;
+    border-radius: 25px;
+    border: none;
+    gap: 10px;
+    outline: none;
+}
+
+.invest-wing input::placeholder{
+    font-size: 15px;
+    color: #FFF0EC;
+}

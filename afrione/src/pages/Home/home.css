@@ -1,0 +1,16 @@
+.home-container{
+    display: grid;
+    grid-template-columns:  2fr  8fr;
+}
+
+.header{
+    display: block;
+}
+
+.head-container{
+    height: 64px;
+}
+
+.wil-container{
+    background-color: #F8F9FB;
+}

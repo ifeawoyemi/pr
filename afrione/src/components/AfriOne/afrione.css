@@ -1,0 +1,91 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-left: 58px;
+}
+
+.upper {
+    padding-top: 54px;
+}
+
+.AfriLogo {
+    background-image: url('../images/Logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 147px;
+    height: 26px;
+}
+
+.lower {
+    padding-top: 470px;
+    width: 450px;
+    color: white;
+}
+
+.lower h1 {
+    font-size: 50px;
+    padding-bottom: 12px;
+}
+
+.lower p {
+    padding: 12px 0 30px 0;
+    font-size: 20px;
+    width: 408px;
+}
+
+footer p {
+    padding-top: 45px;
+    color: white;
+    text-decoration: none;
+}
+
+span{
+    color: "#B2FA63";
+    text-Decoration: "none" ;
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 343px;
+        height: 216px;
+        background-image: url('../images/sm-desktop.png');
+        border-radius: 18px;
+        margin: 16px 16px 0px 16px;
+        padding-left: 20px;
+    }
+
+    .AfriLogo {
+        margin: 0;
+        background-image: url('../images/Slogo.png');
+        width: 94.6px;
+        height: 16.89px;
+    }
+
+    .upper {
+        padding: 20px 0 37px 0;
+    }
+
+    .lower {
+        padding: 0;
+    }
+
+    .lower h1 {
+        font-size: 28px;
+        width: 255px;
+    }
+
+    .lower p {
+        font-size: 16px;
+        width: 302px;
+    }
+
+    footer {
+        display: none;
+    }
+
+
+}

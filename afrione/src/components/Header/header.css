@@ -1,0 +1,13 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 37px 20px 40px;
+    /* position: fixed; */
+}
+
+.notify{
+    background-image: url('../../components/images/notification-bing.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+}
