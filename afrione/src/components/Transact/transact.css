@@ -1,0 +1,14 @@
+.transactions{
+    width: 649px;
+    background-color: white;
+}
+
+.money{
+    padding: 24px;
+}
+
+
+.recent{
+    display: flex;
+    justify-content: space-between;
+}

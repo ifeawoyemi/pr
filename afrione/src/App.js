@@ -13,7 +13,8 @@ function App() {
         <Route path='/' element={<SignUp/>}/>
         <Route path='/verify' element={<Verify/>}/>
         <Route path='/modal' element={<Modal/>}/>
-        <Route path='home' element={<Home/>}/>
+        <Route path='/dashboard' element={<Home/>}/>
+        <Route path='/purse' element={<Home/>}/>
         <Route path='/login' element={<LoginPage/>}/>
       </Routes>
     </div>

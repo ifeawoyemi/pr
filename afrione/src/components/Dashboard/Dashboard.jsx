@@ -1,6 +1,7 @@
 import React from 'react'
 import './dashboard.css';
 import Chevron from '../icons/Chevron'
+import Transact from '../Transact/Transact';
 
 const Dashboard = () => {
   return (
@@ -36,12 +37,12 @@ const Dashboard = () => {
                     </div>
                 </div>
 
-                <div>
+                <div className='lower-wing'>
                   <div>
-
+                    <Transact/>
                   </div>
                   <div>
-                    
+                    Layout
                   </div>
                 </div>
             </div>

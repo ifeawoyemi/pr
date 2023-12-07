@@ -133,3 +133,13 @@
     font-size: 15px;
     color: #FFF0EC;
 }
+
+.lower-wing{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.transact{
+
+}

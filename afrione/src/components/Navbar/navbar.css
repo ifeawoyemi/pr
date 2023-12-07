@@ -1,79 +1,13 @@
-.nav-container {
-    padding-left: 55px;
-    padding-top: 33px;
-  }
-  
-  .afri-logo {
-    background-image: url('../../components/images/Afrihomelogo.png');
-    background-repeat: no-repeat;
-    width: 100.91px;
-    padding: 50px 0 0 0;
-  }
-  
-  .nav {
-   padding: 20px;
-   display: flex;
-   gap: 8px;
-   background-color: #B2FA63;
-   margin: 12px 0px;
-   width: 178px;
-   border-radius: 6px;
-  }
-  
-  .nav-logo {
-    width: 40px;
-  }
-  
-  .dashboard {
-    background-image: url('../../components/images/dashlogo.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 16px;
-  }
-  
-  .purse {
-    background-image: url('../../components/images/purse.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 16px;
-  }
-  
-  .invest {
-    background-image: url('../../components/images/investlogo.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 16px;
-  }
-  
-  .transact {
-    background-image: url('../../components/images/transact.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 16px;
-  }
-  
-  .user {
-    background-image: url('../../components/images/user-square.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 16px;
-  }
-  
-  h4 {
-    font-family: 'Instrument Sans', sans-serif;
-    font-size: 14px;
-    color: #979EA8;
-    font-weight: 400;
-    margin: 0;
-  }
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 37px 20px 40px;
+    /* position: fixed; */
+}
 
-  footer{
-    padding: 428px 31px 39px 30px;
-  }
-
-  .logout-icon{
-    background-image: url('../../components/images/logout.png');
+.notify{
+    background-image: url('../../components/images/notification-bing.png');
     background-repeat: no-repeat;
     background-size: contain;
     width: 16px;
-  }
+}

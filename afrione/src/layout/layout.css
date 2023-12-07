@@ -1,0 +1,16 @@
+.layout-container{
+    display: grid;
+    grid-template-columns:  2fr  8fr;
+}
+
+.side{
+    display: block;
+}
+
+.navContainer{
+    height: 64px;
+}
+
+.wil-container{
+    background-color: #F8F9FB;
+}
