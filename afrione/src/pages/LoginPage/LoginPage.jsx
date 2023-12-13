@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { userDetails } from '../../utils/UserDetails'
 import AfriOne from '../../components/AfriOne/AfriOne';
 import './loginpage.css';
+import swal from "sweetalert"
 
 
 const LoginPage = () => {
@@ -29,9 +30,31 @@ const LoginPage = () => {
     const handleLogin = (e) => {
         e.preventDefault();
 
-        if (validateLogin()) {
-            navigate('/home')
-        }
+        
+    let user_data = JSON.parse(localStorage.getItem("user_db"));
+
+    
+    const hg = user_data.find(user => user.email === email);
+
+
+    console.log("This is the dataaaaa: ", user_data);
+    if (hg) {
+
+        localStorage.setItem("current_email", JSON.stringify(email))
+        navigate('/dashboard')
+    } else {
+        swal({
+            title: "Ooooppssss",
+            text: "Email, is not available in database!",
+            icon: "Error",
+            button: "Close"
+          })
+    }
+    // return
+
+    //     if (validateLogin()) {
+    //         navigate('/home')
+    //     }
     };
 
     return (
@@ -75,8 +98,8 @@ const LoginPage = () => {
                         </div>
                         <button className='login'>Login</button>
                         <div className='dd'>
-                            <h4>You're new here?
-                                <span>Create Account</span>
+                            <h4>You're new here? {" "}
+                                <Link to="/">Create Account</Link>
                             </h4>
                         </div>
                     </form>

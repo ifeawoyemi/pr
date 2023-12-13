@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+
+.purse {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 25px;
+}
+
+.purse button{
+    padding: 13px 64px;
+    margin-top: 34px;
+    border-radius: 10px;
+    border: 1px solid #103333;
+    background-color: transparent;
+    cursor: pointer;
+    color: #103333;
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.purse-container {
+    background-image: url('../images/purse\ bg.png');
+    width: 98%;
+    height: 179px;
+    margin-top: 24px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 30px;
+}
+
+.purse-wing h3 {
+    font-family: 'Instrument Sans';
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+
+.purse-wing h1 {
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 6px;
+}
+
+/* .input-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+} */
+
+.purse-wing input {
+    width: 116px;
+    height: 40px;
+    background-color: #FFF0EC;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    gap: 10px;
+    outline: none;
+}
+
+.purse-wing .input-container input::placeholder {
+    font-size: 15px;
+    font-weight: 500;
+    color: #FF673E;
+}
+
+.img-container{
+    background-color: #FFF0EC;
+}
+
+.coin-details {
+    display: flex;
+    /* justify-content: space-around; */
+    padding-top: 20px;
+    gap: 27px;
+}
+
+.coin {
+    cursor: pointer;
+}
+
+.coin-details h5 {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 14px;
+    align-items: center;
+}

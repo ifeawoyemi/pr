@@ -1,4 +1,4 @@
-.container {
+.Brand-container {
     width: 100%;
     height: 100%;
     background-image: url("../images/bg-desktop.png");
@@ -37,7 +37,7 @@
     width: 408px;
 }
 
-footer p {
+.brand-footer p {
     padding-top: 45px;
     color: white;
     text-decoration: none;
@@ -49,7 +49,7 @@ span{
 }
 
 @media screen and (max-width: 375px) {
-    .container {
+    .Brand-container {
         width: 343px;
         height: 216px;
         background-image: url('../images/sm-desktop.png');
@@ -84,7 +84,7 @@ span{
         width: 302px;
     }
 
-    footer {
+    .brand-footer {
         display: none;
     }
 

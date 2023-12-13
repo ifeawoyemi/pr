@@ -48,6 +48,14 @@ const Verify = () => {
           </form>
         </div>
       </div>
+
+      <footer className='footer'>
+        <p font-size='21'>&copy; Afrione. Alrights reserved.
+        </p>
+        <span>
+           Terms & Conditions Privacy Policy
+        </span>
+      </footer>
     </div>
   );
 };

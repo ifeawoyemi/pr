@@ -2,12 +2,17 @@ import React from 'react'
 import './transact.css'
 
 const Transact = () => {
+
+    const handleViewAll = () =>{
+        
+    }
+
     return (
         <div className='transactions'>
             <div className='money'>
                 <div className='recent'>
                     <h5>Recent Transactions</h5>
-                    <button>View All</button>
+                    <button onClick={handleViewAll}>View All</button>
                 </div>
 
                 <div>

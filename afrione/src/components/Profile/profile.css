@@ -1,0 +1,27 @@
+.profile{
+    background-color: #F8F9FB;
+    min-height: 100%;
+}
+
+.profile-background{
+    padding-top: 36px;
+    padding-left: 36px;
+}
+
+.profile .profile-nav{
+    background-color: #FFFF;
+    width: 264px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.nav-profile:hover{
+    background-color: #002C2C;
+    text-decoration: none;
+    color:  #B2FA63;
+}
+
+.dede{
+    color: black;
+}
+

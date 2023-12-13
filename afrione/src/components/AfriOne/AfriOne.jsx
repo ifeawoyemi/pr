@@ -5,7 +5,7 @@ import "./afrione.css"
 
 const AfriOne = () => {
   return (
-        <div className='container'>
+        <div className='Brand-container'>
             <div className='upper'>
               <div className='AfriLogo'>
                 {/* <LogoIcon/> */}
@@ -16,10 +16,10 @@ const AfriOne = () => {
                 <p>Setup your account and beon your way 
                   to complete control of your finances</p>
             </div>
-            <footer>
+            <div className='brand-footer'>
                 <p font-size='21'>&copy; Afrione. Alrights reserved. 
                 <Link to="/"style={{color: "#B2FA63", textDecoration: "none"}}>Terms & Conditions Privacy Policy</Link></p>
-            </footer>
+            </div>
         </div>
   )
 }

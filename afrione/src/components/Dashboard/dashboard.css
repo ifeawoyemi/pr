@@ -34,6 +34,7 @@
 }
 
 .balance-wing h3 {
+    font-family: 'Instrument Sans';
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 400;
@@ -145,18 +146,19 @@
     position: fixed;
     top: 0;
     right: 0;
-    background-color: rgba(0, 0, 0 0.5);
     z-index: 1;
+    width: 573px;
+    height: 100%;
 }
 
 .modal {
     background: #FFFFFF;
-    width: 500px;
+    width: 10px;
     height: 926px;
     border-radius: 8px;
     z-index: 2;
     width: 650px;
-    padding: 32px 0px 0px 64px;
+    padding: 32px 64px 0px 64px;
 }
 
 .modal img {
@@ -166,15 +168,16 @@
     cursor: pointer;
 }
 
-.modal h1 {
+.invest_h1{
     width: 310px;
     font-size: 32px;
     font-weight: 500;
     line-height: 44px;
     padding: 24px 0px 44px 0px;
+    color: #103333;
 }
 
-.investment{
+.investment {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -184,8 +187,76 @@
     height: 56px;
 }
 
-.education{
-    width: 219px;
-    height: 160px;
+.education {
+    width: 169px;
+    height: 120px;
     background: #F8F9FB;
+    margin-bottom: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.education h3{
+    font-weight: 400;
+    font-size: 16px;
+    color: #485467;
+}
+
+.back{
+    cursor: pointer;
+}
+
+.invest-duration{
+    width: 432px;
+}
+
+.invest-duration h1{
+    padding-top: 24px;
+    color: #103333;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.invest-duration p{
+    padding-top: 8px;
+    padding-bottom: 36px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #485467;
+}
+
+.durations .duration{
+    background-color: #F8F9FB;
+    display: flex;
+    justify-content: space-between;
+    width: 460px;
+    height: 98px;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 22px;
+}
+
+.duration h1{
+    color: #002C2C;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.duration .percent{
+    background-color: #FFF0EC;
+    color: #FF673E;
+    font-size: 15px;
+    font-weight: 500;
+    width: 120px;
+    height: 38px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+
+@media screen and (max-width: 375px) {
+    
 }

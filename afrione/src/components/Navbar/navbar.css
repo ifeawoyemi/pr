@@ -1,8 +1,11 @@
-.header-container{
+.nav-container{
     display: flex;
     justify-content: space-between;
     padding: 20px 37px 20px 40px;
-    /* position: fixed; */
+}
+
+.header{
+    font-family: 'Instrument Sans';
 }
 
 .notify{
@@ -10,4 +13,5 @@
     background-repeat: no-repeat;
     background-size: contain;
     width: 16px;
+    cursor: pointer;
 }

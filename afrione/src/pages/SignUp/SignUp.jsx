@@ -1,29 +1,73 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from "react-router-dom";
 import AfriOne from "../../components/AfriOne/AfriOne";
 import Arrow from '../../components/icons/Arrow';
 import "./signup.css";
+import useLocalStorage from '../../useLocalStorage';
+import swal from "sweetalert"
+
+const userDB = [
+  {
+    "email": "john@doe.com",
+    "firstName": "John",
+    "lastName": "Doe",
+    "country": "Nigeria",
+    "mobileNumber": "+2348135187981"
+  }
+]
 
 const SignUp = () => {
   const navigate = useNavigate();
 
-  const [email, setEmail] = useState();
+  const [email, setEmail] = useState('');
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [mobileNumber, setMobileNumber] = useState('');
+  const [country, setCountry] = useState('');
   const [password, setPassword] = useState('');
   const [emailSuccessful, setEmailSuccessful] = useState(false);
   const [error, setError] = useState();
 
+  const [userDetails, setUserDetails] = useState([]);
+
+  const getDataFromLocalStorage = () => {
+    let data = JSON.parse(localStorage.getItem("user_db"));
+    setUserDetails(data)
+  }
+
+  useEffect(() => {
+    getDataFromLocalStorage()
+  }, [])
+
+
   const handleContinue = (e) => {
     e.preventDefault();
-    const RequiredEmail = 'ifeawoyemi@gmail.com';
-    if (RequiredEmail === email) {
-      setEmailSuccessful(true)
+
+    const hg = userDetails.find(user => user.email === email);
+
+    if (hg) {
+      swal({
+        title: "Ooooppssss",
+        text: "Email, is available in database. Kindly login",
+        icon: "Error",
+        button: "Close"
+      })
+      navigate("/login");
     } else {
-      alert('email incorrect')
-      setEmailSuccessful(false)
+      setEmailSuccessful(true)
     }
+
+    // setEmailSuccessful(true)
+
+    // return;
+    // console.log("This is the HGGGGG: ", hg);
+    // const RequiredEmail = 'ifeawoyemi@gmail.com';
+    // if (email === RequiredEmail) {
+    // } else {
+    //   alert('email incorrect')
+    //   setEmailSuccessful(false)
+    // }
+    // console.log('email')
   }
 
   const validateInputs = () => {
@@ -50,18 +94,31 @@ const SignUp = () => {
     return true;
   }
 
-  const handleClick = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     if (validateInputs()) {
-      console.log("This is valid input: ")
-      navigate("/verify")
+      let user_data = {
+        firstName,
+        lastName,
+        email,
+        mobileNumber,
+        country
+      }
+
+      userDB.push(user_data);
+      localStorage.setItem("user_db", JSON.stringify(userDB))
+      localStorage.setItem("current_email", JSON.stringify(email))
+      navigate("/dashboard")
+    } else {
+      // FIX THIS
     }
   }
 
-  const handleLoginClick = () => {
-    navigate("/login");
-  };
+  const backArrow = () =>{
+    setEmailSuccessful(false)
+  }
+
 
   return (
     <div className='main-container'>
@@ -72,11 +129,11 @@ const SignUp = () => {
       {
         emailSuccessful ? (
           <div className='final'>
-            <div className='arrow'>
+            <div className='arrow' onClick={backArrow}>
               <Link to='/'><Arrow /></Link>
             </div>
             <h1 className=''>Enter your details to get started</h1>
-            <form onSubmit={handleClick}>
+            <form onSubmit={handleSubmit}>
 
               <div className='control'>
                 <label> First Name</label>
@@ -104,7 +161,9 @@ const SignUp = () => {
 
               <div className='control form'>
                 <label>Country</label>
-                <input type="text" />
+                <input type="text"
+                  placeholder='Nigeria'
+                  onChange={(e) => setCountry(e.target.value)} />
                 {error && <p style={{ color: 'red', padding: '1px' }}>{error}</p>}
               </div>
 
@@ -122,7 +181,7 @@ const SignUp = () => {
 
               <div className='login'>
                 <p>Already have an account?
-                  <Link to="/" style={{ textDecoration: 'none', color: '#103333' }}>Login here</Link>
+                  <Link to="/login" style={{ textDecoration: 'none', color: '#103333' }}>Login here</Link>
                 </p>
               </div>
             </form>
@@ -151,10 +210,10 @@ const SignUp = () => {
                 </div>
               </div>
               <div className='login'>
-                <p>Already have an account?
-                  <span onClick={handleLoginClick} style={{ cursor: 'pointer', color: '#103333' }}>
+                <p>Already have an account? 
+                  <Link to={'/login'} style={{ cursor: 'pointer', color: '#103333' }}>
                     Login here
-                  </span>
+                  </Link>
                 </p>
               </div>
             </form>
@@ -167,7 +226,7 @@ const SignUp = () => {
         <p font-size='21'>&copy; Afrione. Alrights reserved.
         </p>
         <span>
-           Terms & Conditions Privacy Policy
+          Terms & Conditions Privacy Policy
         </span>
       </footer>
     </div>
