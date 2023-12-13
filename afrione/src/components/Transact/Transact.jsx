@@ -21,7 +21,7 @@ const Transact = () => {
 
                         </div>
                         <div className='transact-user'>
-                            <h5>Osazee Anco</h5>
+                            <h5>John Doe</h5>
                             <div className='transact-date'>
                                 <span className='sent'>Sent</span>
                                 <span className='ball'></span>
@@ -42,7 +42,7 @@ const Transact = () => {
 
                         </div>
                         <div className='transact-user'>
-                            <h5>Osazee Anco</h5>
+                            <h5>John Doe</h5>
                             <div className='transact-date'>
                                 <span className='sent'>Sent</span>
                                 <span className='ball'></span>
@@ -62,7 +62,7 @@ const Transact = () => {
 
                         </div>
                         <div className='transact-user'>
-                            <h5>Osazee Anco</h5>
+                            <h5>John Doe</h5>
                             <div className='transact-date'>
                                 <span className='sent'>Sent</span>
                                 <span className='ball'></span>

@@ -138,25 +138,25 @@ const SignUp = () => {
               <div className='control'>
                 <label> First Name</label>
                 <input type="text"
-                  placeholder='Osazee'
+                  placeholder='John'
                   onChange={(e) => setFirstName(e.target.value)} />
-                {error && <p style={{ color: 'red', padding: '1px' }}>{error}</p>}
+                {/* {error && <p style={{ color: 'red', padding: '1px' }}>{error}</p>} */}
               </div>
 
               <div className='control form'>
                 <label>Last Name</label>
                 <input type="text"
-                  placeholder='Osazee'
+                  placeholder='Doe'
                   onChange={(e) => setLastName(e.target.value)} />
-                {error && <p style={{ color: 'red', padding: '1px' }}>{error}</p>}
+                {/* {error && <p style={{ color: 'red', padding: '1px' }}>{error}</p>} */}
               </div>
 
               <div className='control form'>
                 <label>Phone Number</label>
-                <input type="number"
+                <input type=""
                   placeholder='08145063120'
                   onChange={(e) => setMobileNumber(e.target.value)} />
-                {error && <p style={{ color: 'red', padding: '1px' }}>{error}</p>}
+                {/* {error && <p style={{ color: 'red', padding: '1px' }}>{error}</p>} */}
               </div>
 
               <div className='control form'>
@@ -164,7 +164,7 @@ const SignUp = () => {
                 <input type="text"
                   placeholder='Nigeria'
                   onChange={(e) => setCountry(e.target.value)} />
-                {error && <p style={{ color: 'red', padding: '1px' }}>{error}</p>}
+                {/* {error && <p style={{ color: 'red', padding: '1px' }}>{error}</p>} */}
               </div>
 
               <div className='control form'>
@@ -172,7 +172,7 @@ const SignUp = () => {
                 <input type="password"
                   placeholder='input your password'
                   onChange={(e) => setPassword(e.target.value)} />
-                {error && <p style={{ color: 'red', padding: '1px' }}>{error}</p>}
+                {/* {error && <p style={{ color: 'red', padding: '1px' }}>{error}</p>} */}
               </div>
 
               <button

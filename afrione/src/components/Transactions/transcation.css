@@ -1,5 +1,5 @@
-.activities{
-
+.special h5,.special h3{
+    font-family: 'Instrument Sans';
 }
 
 .activities button{
@@ -17,19 +17,70 @@
     transition: 0.4s ease-in-out;
 }
 
-.transaction-activities{
+.transactions-activities{
+    margin-top: 23px;
     background-color: #FFFFFF;
+    height: 340px;
     padding: 32px 32px 0px 32px;
+    border-radius: 16px;
 }
 
 .user-history{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #F8F9FB;
     height: 80px;
+    padding: 0px 24px;
+    border-radius: 12px;
+    margin-bottom: 16px;
 }
 
-.user-history{
-    
+.user-history img{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    margin-right: 10px;
+}
 
+.icontransact{
+    display: flex;
+    align-items: center;
+}
+
+.icontransact h1{
+    font-weight: 500;
+    font-size: 14px;
+    color: #002C2C;
+}
+
+.specially{
+    display: flex;
+    align-items: center;
+}
+
+.specially h5{
+    font-weight: 600;
+    font-size: 14px;
+    color: #002C2C;
+}
+
+.user-history .transfer h5,
+.user-history .transfer-day h5{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.transfer-day{
+    color: #485467;
+}
+
+.success{
+    background-color: #F7FFEF;
+    padding: 8px 12px;
+    color: #6B963B;
+    font-family: 'Instrument Sans';
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 24px;
 }

@@ -40,21 +40,14 @@ const Dashboard = () => {
 
   useEffect(() => {
     
-    
-    
-    
+   
     let users_data = JSON.parse(localStorage.getItem("user_db"));
     let user_email = JSON.parse(localStorage.getItem("current_email"));
 
-
-
     const hg = users_data.find(user => user.email === user_email);
-
 
     console.log("This is the original: ", hg);
     setUsername(hg.firstName)
-
-
 
   }, [])
 

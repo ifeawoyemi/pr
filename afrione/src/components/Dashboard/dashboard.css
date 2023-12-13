@@ -153,7 +153,7 @@
 
 .modal {
     background: #FFFFFF;
-    width: 10px;
+    /* width: 10px; */
     height: 926px;
     border-radius: 8px;
     z-index: 2;
@@ -258,5 +258,89 @@
 
 
 @media screen and (max-width: 375px) {
-    
+    .wiglet-container{
+        padding: 20px 16px 0px 16px;
+    }
+
+    .welcome-container h1 {
+        font-size: 24px;
+    }
+
+    .welcome-container P{
+        font-weight: 400;
+        font-size: 14px;
+        width: 301px;
+    }
+
+    .wing{
+        display: block;
+    }
+
+    .wing .balance-wing{
+        width: 21.438rem;
+        height: 131px;
+        border-radius: 12px;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+
+    .wing .balance-wing h3{
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .balance-wing h1{
+        font-size: 20px;
+    }
+
+    .balance-wing input{
+        width: 89px;
+        height: 28px;
+    }
+
+    .img-container{
+        left: 66px;
+    }
+
+    .input-container input::placeholder{
+        font-size: 12px;
+    }
+
+    .balance-wing button{
+        width: 91px;
+        height: 36px;
+        font-size: 12px;
+        padding: 6.5px 26.5px;
+    }
+
+    .invest-wing{
+        width: 21.438rem;
+        height: 129px;
+        padding: 24px 0px 0px 24px;
+    }
+
+    .invest-wing h6{
+        font-size: 12px;
+        padding-bottom: 0;
+    }
+
+    .invest-wing h1{
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+
+    .invest-wing input{
+        width: 89px;
+        height: 28px;
+    }
+
+    .lower-wing{
+        display: block;
+    }
+
+    .overlay{
+        width: 21.438rem;
+        top: 100%;
+        left: -100%;
+    }
 }

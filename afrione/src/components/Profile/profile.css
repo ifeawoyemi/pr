@@ -1,6 +1,8 @@
 .profile{
     background-color: #F8F9FB;
     min-height: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .profile-background{
@@ -13,15 +15,103 @@
     width: 264px;
     padding-top: 24px;
     padding-bottom: 25px;
+    border-radius: 12px;
 }
 
 .nav-profile:hover{
     background-color: #002C2C;
-    text-decoration: none;
     color:  #B2FA63;
+    cursor: pointer;
 }
 
-.dede{
-    color: black;
+.anchor{
+    width: 770px;
+    height: 580px;
+    background-color: #FFFF;
+    margin-left: 24px;
+    margin-top: 36px;
+    border-radius: 12px;
+    position: relative;
 }
 
+.user-db button{
+    margin: 72px 52px 75px 0px;
+    /* margin-right: 52px;
+    margin-bottom: 75px; */
+    top: 0;
+    right: 0;
+    position: absolute;
+    padding: 13px 22px;
+    border-radius: 10px;
+    border: 1px solid #103333;
+    background-color: transparent;
+    font-family: 'Instrument Sans';
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.user-data-container{
+    background-color: #F8F9FB;
+    margin: 191px 52px 0px 52px;
+    padding: 4px 0px;
+    width: 666px;
+    border-radius: 12px;
+}
+
+hr{
+    width: 618px;
+    border: 0.3px solid #B2B2B2;
+    margin: 0px 24px;
+}
+
+.user-data{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 24px;
+}
+
+.user-data h5{
+    font-family: 'Instrument Sans';
+    font-size: 14px;
+    font-weight: 400;
+    color: #110024;
+}
+
+.user-data h4{
+    color: #110024;
+    font-weight: 500;
+}
+
+.anchor .update-password{
+    padding: 52px 0px 0px 52px;
+}
+
+.update-password h2{
+    font-family: 'Instrument Sans';
+    font-weight: 600;
+    font-size: 24px;
+    color: #002C2C;
+}
+
+.update-password h5{
+    font-family: 'Instrument Sans';
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 43px;
+    color: #979EA8;
+}
+
+.update-password input{
+    width: 460px;
+}
+
+.update-password label{
+    font-family: 'Instrument Sans';
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.update-password button{
+    width: 460px;
+}

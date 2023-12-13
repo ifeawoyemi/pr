@@ -1,8 +1,8 @@
-
+/* 
 .invests{
     
 
-}
+} */
 
 .investments_container{
     display: flex;
@@ -67,6 +67,44 @@
 
 .future-plans{
     display: flex;
+    padding-bottom: 27px;
+}
+
+.future-plans h3{
+    font-family: 'Instrument Sans';
+    font-weight: 500;
+    font-size: 14px;
+    color: #002C2C;
+}
+
+.future-plans h4{
+    font-weight: 600;
+    font-size: 14px;
+    color: #002C2C;
+}
+
+.future-plans .hr{
+    width: 173px;
+    height: 6px;
+    background-color: #FFF0EC;
+    border: none;
+    border-radius: 15px;
+    margin-top: 7px;
+}
+
+.future-plans .two, 
+.future-plans .three,
+.future-plans .four{
+    width: 263px;
+}
+
+.future-plans .five{
+    width: 173px;
+}
+
+.future-plans .six,
+.future-plans .seven{
+    width: 356px;
 }
 
 .one{

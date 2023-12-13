@@ -1,9 +1,10 @@
 import React from 'react';
-import './transcation.css'
+import './transcation.css';
+import Success from '../images/transacticonupDT.png'
 
 const Transactions = () => {
   return (
-    <div className='wiglet-container'>
+    <div className='wiglet-container special'>
       <div className='welcome-container activities'>
         <div>
           <h1>Transactions</h1>
@@ -20,28 +21,70 @@ const Transactions = () => {
         <div className='history'>
           <div className='user-history'>
             <div className='icontransact'>
+              <img src={Success} alt="" />
+              
+                <h1>From John Doe</h1>
+            </div>
 
-            </div>
-            <div>
-              <h5>From</h5>
-            </div>
-            <div>
-              <h5>Osazee Anco</h5>
-            </div>
-            <div className=''>
+            <div className='specially'>
               <h5>AFR 0.00</h5>
-              <h3>(NGN 0.00)</h3>
+              <h4>(NGN 0.00)</h4>
             </div>
-            <div>
+            <div className='transfer'>
               <h5>Transfer</h5>
             </div>
-            <div>
+            <div className='transfer-day'>
               <h5>12/09/2021</h5>
             </div>
-            <div>
+            <div className='success'>
               <span>Success</span>
             </div>
           </div>
+
+          <div className='user-history'>
+            <div className='icontransact'>
+              <img src={Success} alt="" />
+              
+                <h1>From John Doe</h1>
+            </div>
+
+            <div className='specially'>
+              <h5>AFR 0.00</h5>
+              <h4>(NGN 0.00)</h4>
+            </div>
+            <div className='transfer'>
+              <h5>Transfer</h5>
+            </div>
+            <div className='transfer-day'>
+              <h5>12/09/2021</h5>
+            </div>
+            <div className='success'>
+              <span>Success</span>
+            </div>
+          </div>
+
+          <div className='user-history'>
+            <div className='icontransact'>
+              <img src={Success} alt="" />
+              
+                <h1>From John Doe</h1>
+            </div>
+
+            <div className='specially'>
+              <h5>AFR 0.00</h5>
+              <h4>(NGN 0.00)</h4>
+            </div>
+            <div className='transfer'>
+              <h5>Transfer</h5>
+            </div>
+            <div className='transfer-day'>
+              <h5>12/09/2021</h5>
+            </div>
+            <div className='success'>
+              <span>Success</span>
+            </div>
+          </div>
+
         </div>
 
       </div>
