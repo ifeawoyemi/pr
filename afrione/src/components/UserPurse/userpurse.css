@@ -87,3 +87,44 @@
     font-size: 14px;
     align-items: center;
 }
+
+@media screen and (max-width: 375px){
+    .purse button{
+        display: none;
+    }
+
+    .purse-container{
+        width: 21.438rem;
+        height: 232px;
+        display: block;
+    }
+
+    .purse-wing h3{
+        font-size: 12px;
+    }
+
+    .purse-wing h1{
+        font-size: 20px;
+    }
+
+    .purse-wing input{
+        width: 102px;
+        height: 32px;
+    }
+
+    .img-container{
+        display: none;
+    }
+
+    .coin img{
+        width: 44px;
+    }
+
+    .coin-details{
+        gap: 11px;
+    }
+
+    .coin-details h5{
+       font-size: 14px; 
+    }
+}

@@ -7,10 +7,18 @@
     display: block;
 }
 
-.navContainer{
-    height: 64px;
-}
-
 .wil-container{
     background-color: #F8F9FB;
 }
+
+.dash-container{
+    height: 100%;
+}
+
+
+@media screen and (max-width: 375px) {
+    .layout-container{
+        display: grid;
+        grid-template-columns:  0fr  9fr;
+    }
+  }

@@ -74,13 +74,15 @@ h4 {
 }
 
 footer {
+  display: flex;
   padding: 428px 31px 39px 30px;
+  gap: 8px;
 }
 
 .logout-icon {
-  background-image: url('../../components/images/logout.png');
+  background-image: url('../images/logout.png');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 16px;
 }
 

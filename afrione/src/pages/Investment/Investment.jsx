@@ -4,7 +4,7 @@ import UserInvestment from '../../components/UserInvestment/UserInvestment';
 
 const Investment = () => {
   return (
-    <Layout page="Investment">
+    <Layout title="Investment">
       <UserInvestment />
     </Layout>
   )

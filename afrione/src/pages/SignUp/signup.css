@@ -69,7 +69,7 @@ input {
 .icons {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 480px;
+    width: 100%;
 }
 
 .icons .googleIcon{
@@ -101,7 +101,7 @@ input {
 }
 
 .final h1 {
-    width: 364px;
+    width: 100%;
     font-weight: 500;
     font-size: 36px;
     color: #002C2C;
@@ -132,7 +132,7 @@ input {
 }
 
 .final button {
-    width: 480px;
+    width: 100%;
     height: 66px;
     margin: 24px 24px;
     gap: 8px;
@@ -175,16 +175,16 @@ input {
 
     .form-field input {
         margin-top: 12px;
-        width: 343px;
+        width: 100%;
     }
 
     .form-field button{
-        width: 343px;
+        width: 100%;
     }
 
-    .icons{
-        width: 343px;
-    }
+    /* .icons{
+        width: 100%;
+    } */
 
     .icons .googleIcon{
         background-image: url('../../components/images/Sgoogleicon.png');
@@ -222,10 +222,10 @@ input {
     }
 
     .control input{
-        width: 343px;
+        width: 100%;
     }
 
      .final button{
-        width: 343px;
+        width: 100%;
     }
 }

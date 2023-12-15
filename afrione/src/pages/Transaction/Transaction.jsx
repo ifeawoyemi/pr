@@ -5,7 +5,7 @@ import Transactions from '../../components/Transactions/Transactions';
 
 const Transaction = () => {
   return (
-    <Layout page="Transaction">
+    <Layout title="Transaction">
       <Transactions />
     </Layout>
   )

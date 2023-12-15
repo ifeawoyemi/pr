@@ -22,20 +22,33 @@
 
 @media screen and (max-width: 375px) {
 
-    .nav-container{
+    /* .nav-container{
         width: 23rem;
         padding: 1.25rem 1.5rem;
+    }
+    
+    
+    .overlay{
+        background-color: brown;
+        height: 100%;
+    } */
+    .menu-container{
+        display: flex;
+        align-items: center;
+        gap: 8px;
     }
     .menu{
         display: block;
     }
 
-    .menu-container{
-        display: flex;
-        gap: 5px;
+    .nav-mobile {
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        width: 100vw;
+        background-color: white !important;
+        z-index: 9999 !important;
+        padding: 30px 50px;
     }
-
-    .overlay{
-        background-color: brown;
-    }
+    
 }

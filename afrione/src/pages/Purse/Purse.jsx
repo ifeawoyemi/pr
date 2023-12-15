@@ -4,7 +4,7 @@ import UserPurse from '../../components/UserPurse/UserPurse';
 
 const Purse = () => {
   return (
-    <Layout page="Purse">
+    <Layout title="Purse">
       <UserPurse />
     </Layout>
   )

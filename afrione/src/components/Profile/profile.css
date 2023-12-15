@@ -36,8 +36,6 @@
 
 .user-db button{
     margin: 72px 52px 75px 0px;
-    /* margin-right: 52px;
-    margin-bottom: 75px; */
     top: 0;
     right: 0;
     position: absolute;
@@ -114,4 +112,44 @@ hr{
 
 .update-password button{
     width: 460px;
+}
+
+@media screen and (max-width: 375px){
+    .profile{
+        display: block;
+    }
+
+    .anchor{
+        width: 20.438rem;
+        position: relative;
+        padding: 20px;
+    }
+
+    hr{
+        width: 15.7rem;
+    }
+
+    .user-db button{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .user-data-container{
+        margin-top: 150px;
+        margin-left: 0px;
+        width: 18.3rem;
+        padding-top: 70px;
+    }
+
+    .anchor .update-password{
+        padding: 16px;
+    }
+    .update-password input{
+        width: 16.3rem;
+    }
+
+    .update-password button{
+        width: 16.3rem;
+    }
 }

@@ -3,7 +3,6 @@ import { Link, useNavigate } from "react-router-dom";
 import AfriOne from "../../components/AfriOne/AfriOne";
 import Arrow from '../../components/icons/Arrow';
 import "./signup.css";
-import useLocalStorage from '../../useLocalStorage';
 import swal from "sweetalert"
 
 const userDB = [
@@ -57,17 +56,6 @@ const SignUp = () => {
       setEmailSuccessful(true)
     }
 
-    // setEmailSuccessful(true)
-
-    // return;
-    // console.log("This is the HGGGGG: ", hg);
-    // const RequiredEmail = 'ifeawoyemi@gmail.com';
-    // if (email === RequiredEmail) {
-    // } else {
-    //   alert('email incorrect')
-    //   setEmailSuccessful(false)
-    // }
-    // console.log('email')
   }
 
   const validateInputs = () => {
@@ -87,7 +75,6 @@ const SignUp = () => {
     }
 
     if (password.length < 8) {
-      setError('Password must be at least 8 characters');
       return false;
     }
 
@@ -140,7 +127,6 @@ const SignUp = () => {
                 <input type="text"
                   placeholder='John'
                   onChange={(e) => setFirstName(e.target.value)} />
-                {/* {error && <p style={{ color: 'red', padding: '1px' }}>{error}</p>} */}
               </div>
 
               <div className='control form'>
@@ -148,7 +134,6 @@ const SignUp = () => {
                 <input type="text"
                   placeholder='Doe'
                   onChange={(e) => setLastName(e.target.value)} />
-                {/* {error && <p style={{ color: 'red', padding: '1px' }}>{error}</p>} */}
               </div>
 
               <div className='control form'>
@@ -156,15 +141,13 @@ const SignUp = () => {
                 <input type=""
                   placeholder='08145063120'
                   onChange={(e) => setMobileNumber(e.target.value)} />
-                {/* {error && <p style={{ color: 'red', padding: '1px' }}>{error}</p>} */}
-              </div>
+             </div>
 
               <div className='control form'>
                 <label>Country</label>
                 <input type="text"
                   placeholder='Nigeria'
                   onChange={(e) => setCountry(e.target.value)} />
-                {/* {error && <p style={{ color: 'red', padding: '1px' }}>{error}</p>} */}
               </div>
 
               <div className='control form'>
@@ -172,7 +155,6 @@ const SignUp = () => {
                 <input type="password"
                   placeholder='input your password'
                   onChange={(e) => setPassword(e.target.value)} />
-                {/* {error && <p style={{ color: 'red', padding: '1px' }}>{error}</p>} */}
               </div>
 
               <button

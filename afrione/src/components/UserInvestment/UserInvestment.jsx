@@ -6,8 +6,10 @@ const UserInvestment = () => {
   return (
     <div className='wiglet-container'>
       <div className='welcome-container'>
+        <div className='invest-contain'>
         <h1>See how your investments are doing</h1>
         <p>Invest with us to earn daily rewards</p>
+        </div>
       </div>
 
       <div className='investments_container'>

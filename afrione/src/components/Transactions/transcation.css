@@ -2,7 +2,7 @@
     font-family: 'Instrument Sans';
 }
 
-.activities button{
+.user-activities button{
     padding: 12px;
     border-radius: 24px;
     border: none;
@@ -11,14 +11,15 @@
     margin-right: 20px;
     cursor: pointer;
 }
-.activities button:hover{
+.user-activities button:hover{
     background-color: #002C2C;
     color: #B2FA63;
     transition: 0.4s ease-in-out;
 }
 
-.transactions-activities{
-    margin-top: 23px;
+.transact-active{
+    margin-top: 40px;
+    margin-right: 40px;
     background-color: #FFFFFF;
     height: 340px;
     padding: 32px 32px 0px 32px;
@@ -30,6 +31,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #F8F9FB;
+    width: 980px;
     height: 80px;
     padding: 0px 24px;
     border-radius: 12px;
@@ -43,12 +45,12 @@
     margin-right: 10px;
 }
 
-.icontransact{
+.icon-activities{
     display: flex;
     align-items: center;
 }
 
-.icontransact h1{
+.icon-activities h1{
     font-weight: 500;
     font-size: 14px;
     color: #002C2C;
@@ -83,4 +85,23 @@
     font-weight: 400;
     font-size: 14px;
     border-radius: 24px;
+}
+
+@media screen and (max-width: 375px){
+
+    /* .transact-active{
+        width: 18.438rem;
+        
+        overflow: scroll;
+    } */
+    /* .user-history{
+        display: flex;
+        justify-content: space-between;
+        overflow: scroll;
+    }
+
+    .icon-activities{
+        overflow: scroll;
+    } */
+
 }

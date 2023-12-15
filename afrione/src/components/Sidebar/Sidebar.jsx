@@ -36,6 +36,7 @@ const Sidebar = () => {
 
       <footer>
         <div className='logout-icon'>
+          {/* <img src={logOut} alt="" /> */}
         </div>
         <h4>LogOut</h4>
       </footer>

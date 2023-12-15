@@ -1,5 +1,5 @@
-import React from 'react'
-import './levels.css'
+import React from 'react';
+import './levels.css';
 
 const Levels = () => {
   return (

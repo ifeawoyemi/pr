@@ -1,16 +1,15 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { userDetails } from '../../utils/UserDetails'
+// import { userDetails } from '../../utils/UserDetails'
 import AfriOne from '../../components/AfriOne/AfriOne';
 import './loginpage.css';
-import swal from "sweetalert"
+import swal from "sweetalert";
 
 
 const LoginPage = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
-    // const [loginSuccessful, setLoginSuccessful] = useState(false);
     const navigate = useNavigate();
 
     const validateLogin = () => {

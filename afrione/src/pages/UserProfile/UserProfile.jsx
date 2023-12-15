@@ -5,7 +5,7 @@ import Layout from '../../layout/layout';
 
 const UserProfile = () => {
   return (
-    <Layout page="User Profile">
+    <Layout title="User Profile">
       <Profile />
     </Layout>
   )

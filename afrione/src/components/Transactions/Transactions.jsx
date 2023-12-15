@@ -1,11 +1,11 @@
 import React from 'react';
 import './transcation.css';
-import Success from '../images/transacticonupDT.png'
+import Success from '../images/transacticonupDT.png';
 
 const Transactions = () => {
   return (
     <div className='wiglet-container special'>
-      <div className='welcome-container activities'>
+      <div className='welcome-container user-activities'>
         <div>
           <h1>Transactions</h1>
           <div>
@@ -17,10 +17,10 @@ const Transactions = () => {
 
       </div>
 
-      <div className='transactions-activities'>
+      <div className='transact-active'>
         <div className='history'>
           <div className='user-history'>
-            <div className='icontransact'>
+            <div className='icon-activities'>
               <img src={Success} alt="" />
               
                 <h1>From John Doe</h1>
@@ -42,7 +42,7 @@ const Transactions = () => {
           </div>
 
           <div className='user-history'>
-            <div className='icontransact'>
+            <div className='icon-activities'>
               <img src={Success} alt="" />
               
                 <h1>From John Doe</h1>
@@ -64,7 +64,7 @@ const Transactions = () => {
           </div>
 
           <div className='user-history'>
-            <div className='icontransact'>
+            <div className='icon-activities'>
               <img src={Success} alt="" />
               
                 <h1>From John Doe</h1>
