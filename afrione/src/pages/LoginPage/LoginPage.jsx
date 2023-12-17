@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-// import { userDetails } from '../../utils/UserDetails'
+import { userDetails } from '../../utils/UserDetails'
 import AfriOne from '../../components/AfriOne/AfriOne';
 import './loginpage.css';
 import swal from "sweetalert";

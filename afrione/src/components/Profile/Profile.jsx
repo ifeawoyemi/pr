@@ -4,7 +4,7 @@ import './profile.css';
 const Profile = () => {
   const [isInvestModalOpen, setIsInvestModalOpen] = useState(false);
   const [securityOpen, setSecurityOpen] = useState(false);
-
+  
   useEffect(() => {
     setIsInvestModalOpen(true);
     setSecurityOpen(false);
