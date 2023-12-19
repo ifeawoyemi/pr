@@ -1,11 +1,22 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
+// import { AuthContext } from './AuthContext';
 import './sidebar.css';
 
 const Sidebar = () => {
+  // const { logout } = useContext(AuthContext);
+  const naviagte = useNavigate();
+
+  const handleLogout = () =>{
+    // logout();
+
+    naviagte('/')
+  }
+
   return (
     <div className='side-container'>
       <div className='afri-logo'>
+        DV
       </div>
       <div className='nav-contain'>
         <NavLink to='/dashboard' className='nav' style={{ textDecoration: 'none' }}>
@@ -34,11 +45,11 @@ const Sidebar = () => {
         </NavLink>
       </div>
 
-      <footer>
+      <footer onClick={handleLogout}>
         <div className='logout-icon'>
-          {/* <img src={logOut} alt="" /> */}
+          
         </div>
-        <h4>LogOut</h4>
+        <button>LogOut</button>
       </footer>
     </div>
   )

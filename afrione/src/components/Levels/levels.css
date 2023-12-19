@@ -41,7 +41,8 @@
     background-image: url('../images/reward.png');
     background-repeat: no-repeat;
     background-position-x: right;
-    background-color: #E7EBEB;
+    background-color: rgb(73, 60, 73);
+    color: #FFFFFF;
     background-size: contain;
     width: 410px;
     height: 198px;
@@ -74,6 +75,13 @@
     height: 198px;
     border-radius: 12px;
     padding: 24px 0px 0px 24px;
+}
+
+.referal button{
+    border-radius: 10px;
+    border: 1px solid #103333;
+    margin-top: 44px;
+    padding: 6.5px 20px;
 }
 
 

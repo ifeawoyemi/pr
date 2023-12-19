@@ -58,8 +58,8 @@ const UserPurse = () => {
 
        <div className='purse-container'>
          <div className='purse-wing'>
-           <h3>Available Balance</h3>
-           <h1>AFR 0.00</h1>
+           <h3>Balance</h3>
+           <h1>DV 0.00</h1>
            <div className='input-container'>
              <input type='' placeholder='NGN 0.00' />
              <div className='img-container'>
@@ -124,7 +124,11 @@ const UserPurse = () => {
             <div onClick={closeModal}>
             <img src={X} alt="Close" />
             </div>
+{/*             
+            <div className='invest-duration'>
             <h1>Send money</h1>
+            <p>You have to fund your wallet first before sending money to your loved ones</p>
+            </div> */}
           </div>
         </div>
       )}

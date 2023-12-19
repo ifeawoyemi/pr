@@ -112,6 +112,8 @@ hr{
 
 .update-password button{
     width: 460px;
+    background: linear-gradient(90deg, #22082c, #181212);
+    color: #ffff;
 }
 
 @media screen and (max-width: 375px){

@@ -1,8 +1,7 @@
 .Brand-container {
     width: 100%;
     height: 100%;
-    background-image: url("../images/bg-desktop.png");
-    background-repeat: no-repeat;
+    background: linear-gradient(90deg, #22082c, #181212);
     background-size: cover;
     position: relative;
     padding-left: 58px;
@@ -13,10 +12,9 @@
 }
 
 .AfriLogo {
-    background-image: url('../images/Logo.png');
+    /* background-image: url('../images/Logos.png'); */
     background-size: contain;
     background-repeat: no-repeat;
-    width: 147px;
     height: 26px;
 }
 

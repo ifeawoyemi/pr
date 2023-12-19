@@ -16,7 +16,7 @@ const UserInvestment = () => {
         <div className='invest-wing invests'>
           <div>
             <h6>Balance of Investments</h6>
-            <h1>AFR 0.00</h1>
+            <h1>DV 0.00</h1>
             <input type="" placeholder='NGN 0.00' disabled/>
           </div>
         </div>
@@ -43,43 +43,43 @@ const UserInvestment = () => {
             <div className='future-plans'>
               <h3>21/09</h3>
               <hr className='hr one'/>
-              <h4>AFR 0.00</h4>
+              <h4>DV 0.00</h4>
             </div>
 
             <div className='future-plans'>
               <h3>22/09</h3>
               <hr className='hr two'/>
-              <h4>AFR 0.00</h4>
+              <h4>DV 0.00</h4>
             </div>
 
             <div className='future-plans'>
               <h3>23/09</h3>
               <hr className='hr three'/>
-              <h4>AFR 0.00</h4>
+              <h4>DV 0.00</h4>
             </div>
 
             <div className='future-plans'>
               <h3>24/09</h3>
               <hr className='hr four'/>
-              <h4>AFR 0.00</h4>
+              <h4>DV 0.00</h4>
             </div>
 
             <div className='future-plans'>
               <h3>25/09</h3>
               <hr className='hr five'/>
-              <h4>AFR 0.00</h4>
+              <h4>DV 0.00</h4>
             </div>
 
             <div className='future-plans'>
               <h3>26/09</h3>
               <hr className='hr six'/>
-              <h4>AFR 0.00</h4>
+              <h4>DV 0.00</h4>
             </div>
 
             <div className='future-plans'>
               <h3>27/09</h3>
               <hr className='hr seven'/>
-              <h4>AFR 0.00</h4>
+              <h4>DV 0.00</h4>
             </div>
           </div>
         </div>

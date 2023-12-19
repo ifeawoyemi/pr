@@ -11,6 +11,7 @@ const LoginPage = () => {
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
     const navigate = useNavigate();
+    
 
     const validateLogin = () => {
 
@@ -49,11 +50,6 @@ const LoginPage = () => {
             button: "Close"
           })
     }
-    // return
-
-    //     if (validateLogin()) {
-    //         navigate('/home')
-    //     }
     };
 
     return (
@@ -95,7 +91,7 @@ const LoginPage = () => {
                                 <h4>Forgot Password</h4>
                             </div>
                         </div>
-                        <button className='login'>Login</button>
+                        <button className='final-button'>Login</button>
                         <div className='dd'>
                             <h4>You're new here? {" "}
                                 <Link to="/">Create Account</Link>

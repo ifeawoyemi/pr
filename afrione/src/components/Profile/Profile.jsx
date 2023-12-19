@@ -41,11 +41,6 @@ const Profile = () => {
 
   )
 
-  // const handleCloseModal = () => {
-  //   setIsInvestModalOpen(false);
-  //   setSelectedSection(null);
-  // };
-
   return (
     <div className='profile'>
       <div className='profile-background'>

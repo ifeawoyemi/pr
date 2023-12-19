@@ -26,7 +26,7 @@
 .balance-wing {
     width: 500px;
     height: 179px;
-    background-image: url('../images/bal-img.png');
+    background: linear-gradient(90deg, #22082c, #181212);
     background-repeat: no-repeat;
     border-radius: 12px;
     display: flex;
@@ -340,8 +340,22 @@
     }
 
     .overlay{
-        width: 21.438rem;
-        top: 100%;
-        left: -100%;
+        /* width: 21.438rem; */
+        width: 100%;
+        /* top: 100%; */
+        /* left: -100%; */
+    }
+
+    .invest_h1{
+        font-size:20px;
+    }
+
+    .investment{
+        display: block;
+        align-items: center;
+    }
+
+    .invest-duration{
+       width: 310px;
     }
 }

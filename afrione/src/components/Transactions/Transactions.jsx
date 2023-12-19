@@ -27,7 +27,7 @@ const Transactions = () => {
             </div>
 
             <div className='specially'>
-              <h5>AFR 0.00</h5>
+              <h5>DV 0.00</h5>
               <h4>(NGN 0.00)</h4>
             </div>
             <div className='transfer'>
@@ -49,7 +49,7 @@ const Transactions = () => {
             </div>
 
             <div className='specially'>
-              <h5>AFR 0.00</h5>
+              <h5>DV 0.00</h5>
               <h4>(NGN 0.00)</h4>
             </div>
             <div className='transfer'>
@@ -71,7 +71,7 @@ const Transactions = () => {
             </div>
 
             <div className='specially'>
-              <h5>AFR 0.00</h5>
+              <h5>DV 0.00</h5>
               <h4>(NGN 0.00)</h4>
             </div>
             <div className='transfer'>

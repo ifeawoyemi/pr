@@ -63,8 +63,8 @@ const Dashboard = () => {
         <div className='wing'>
           <div className='balance-wing'>
             <div>
-              <h3>Available Balance</h3>
-              <h1>AFR 0.00</h1>
+              <h3>Balance</h3>
+              <h1>DV 0.00</h1>
               <div className='input-container'>
                 <input type='' placeholder='NGN 0.00' />
                 <div className='img-container'>
@@ -79,7 +79,7 @@ const Dashboard = () => {
           <div className='invest-wing'>
             <div>
               <h6>Balance of Investments</h6>
-              <h1>AFR 0.00</h1>
+              <h1>DV 0.00</h1>
               <input type="" placeholder='NGN 0.00' />
             </div>
           </div>
@@ -101,37 +101,37 @@ const Dashboard = () => {
             <div>
               <img src={X} alt="Close" onClick={handleCloseModal} />
             </div>
-            <h1 className='invest_h1'>In what would you like to make an investment?</h1>
+            <h1 className='invest_h1'>What do you see fit to invest in?</h1>
 
             <div className='investment'>
               <div className='education' onClick={() => handleSectionClick('commonSection')}>
                 <img src={Educate} alt="" />
-                <h3>Education</h3>
+                <h3>Education Sector</h3>
               </div>
 
               <div className='education' onClick={() => handleSectionClick('commonSection')}>
                 <img src={Health} alt="" />
-                <h3>Health Insurance</h3>
+                <h3>Health Sector</h3>
               </div>
 
               <div className='education' onClick={() => handleSectionClick('commonSection')}>
                 <img src={School} alt="" />
-                <h3>Building Project</h3>
+                <h3>Real Estate</h3>
               </div>
 
               <div className='education' onClick={() => handleSectionClick('commonSection')}>
                 <img src={TableGlobe} alt="" />
-                <h3>Vacation</h3>
+                <h3>Tourism</h3>
               </div>
 
               <div className='education' onClick={() => handleSectionClick('commonSection')}>
                 <img src={SchoolBag} alt="" />
-                <h3>Funeral</h3>
+                <h3>Technology</h3>
               </div>
 
               <div className='education' onClick={() => handleSectionClick('commonSection')}>
                 <img src={Medal} alt="" />
-                <h3>Wedding</h3>
+                <h3>Event Planning</h3>
               </div>
             </div>
           </div>
@@ -149,7 +149,7 @@ const Dashboard = () => {
 
                 <div className='invest-duration'>
                   <h1>Select Duration</h1>
-                  <p>Select a duration that you want to invest your funds and earn interests upto 15%.</p>
+                  <p>Select a timeframe for your Investment and get more profit that you want to invest your funds and earn interests upto 15%.</p>
                 </div>
 
                 <div className='durations'>

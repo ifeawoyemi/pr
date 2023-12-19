@@ -7,7 +7,7 @@ const AfriOne = () => {
         <div className='Brand-container'>
             <div className='upper'>
               <div className='AfriLogo'>
-                {/* <LogoIcon/> */}
+                {/* <LogoIcon/> */}DV
               </div>
             </div>
             <div className='lower'>

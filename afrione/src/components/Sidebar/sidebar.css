@@ -3,10 +3,10 @@
 }
 
 .afri-logo {
-  background-image: url('../../components/images/Afrihomelogo.png');
+  /* background-image: url('../../components/images/Afrihomelogo.png'); */
   background-repeat: no-repeat;
   width: 100.91px;
-  padding: 50px 0 0 0;
+  padding: 0 0 0 0;
   cursor: pointer;
   margin-left: 55px;
 }
@@ -14,19 +14,16 @@
 .nav {
   display: flex;
   gap: 8px;
-  margin: 12px 0px;
+  margin: 30px 0px;
   width: 178px;
   padding: 20px;
   margin-left: 27px;
   margin-right: 20px;
 }
 
-/* .nav-contain{
-  width: 208px;
-} */
-
 .nav:hover {
-  background-color: #B2FA63;
+  background: linear-gradient(90deg, #22082c, #181212);
+    color: #ffff;
   border-radius: 6px;
   padding: 20px;
   width: 178px;
@@ -77,6 +74,7 @@ footer {
   display: flex;
   padding: 428px 31px 39px 30px;
   gap: 8px;
+  cursor: pointer;
 }
 
 .logout-icon {
@@ -84,6 +82,13 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   width: 16px;
+}
+
+button{
+  cursor: pointer;
+  text-decoration: none;
+  background-color: none;
+  border: none;
 }
 
 @media screen and (max-width: 375px) {

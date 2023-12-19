@@ -51,11 +51,10 @@ input {
     height: 66px;
     padding: 21px 24px;
     gap: 8px;
-    background: linear-gradient(0deg, #103333, #103333),
-        linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    background: linear-gradient(90deg, #22082c, #181212);
+    color: #ffff;
     border: none;
     border-radius: 10px;
-    color: #B2FA63;
     outline: none;
 }
 
@@ -136,11 +135,10 @@ input {
     height: 66px;
     margin: 24px 24px;
     gap: 8px;
-    background: linear-gradient(0deg, #103333, #103333),
-        linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    background: linear-gradient(90deg, #22082c, #181212);
+    color: #ffff;
     border: none;
     border-radius: 10px;
-    color: #B2FA63;
     outline: none;
 }
 
