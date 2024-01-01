@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+.login-layer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.login-modal {
+    padding: 223px 120px;
+}
+
+.login-modal h1 {
+    font-weight: 500;
+    font-size: 36px;
+    padding-bottom: 37px;
+}
+
+.input-field .label {
+    padding-bottom: 20px;
+}
+
+.dd {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dd h4 {
+    font-weight: 500;
+    font-size: 14px;
+    color: #687588;
+}
+
+.dd span {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    color: #103333;
+}
+
+.ddd {
+    display: flex;
+    gap: 8px;
+}
+
+.dd #checkbox {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #CBD5E0;
+    border-radius: 6px;
+}
+
+.final-button {
+    width: 100%;
+    height: 66px;
+    margin: 24px 24px;
+    gap: 8px;
+    background: linear-gradient(90deg, #22082c, #181212);
+    color: #ffff;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.footer {
+    display: none;
+}
+
+@media screen and (max-width: 375px) {
+    .login-layer {
+        display: block;
+    }
+
+    .login-modal {
+        padding: 37px 18px 0 18px;
+    }
+
+    .login-modal h1 {
+        font-size: 24px;
+    }
+
+    .input-field input {
+        width: 343px;
+    }
+
+    .login {
+        width: 343px;
+    }
+
+    .footer {
+        display: block;
+        padding: 128px 88px 40px 89px;
+        text-align: center;
+    }
+
+    .footer p {
+        color: #979EA8;
+        font-size: 12px;
+        font-weight: 500;
+        padding-bottom: 10px;
+    }
+}

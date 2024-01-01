@@ -1,0 +1,177 @@
+.investments_container{
+    display: flex;
+    margin-top: 24px;
+}
+
+.help{
+    background-image: url('../images/bbg.png');
+    height: 179px;
+    width: 500px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    padding: 24px;
+}
+
+.help h3{
+    font-family: 'Instrument Sans';
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 8px;
+}
+
+.help p{
+    font-weight: 300;
+    width: 206px;
+}
+
+.invest-record{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    margin-top: 24px;
+    background-color: #F8F9FB;
+}
+
+.invest-record .money{
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+
+.invest-record input{
+    width: 112px;
+    height: 40px;
+    background-color: #FFF0EC;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    gap: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.invest-record input::placeholder {
+    font-size: 15px;
+    font-weight: 500;
+    color: #FF673E;
+}
+
+.plans{
+    width: 512px;
+    margin-top: 44px;
+}
+
+.future-plans{
+    display: flex;
+    padding-bottom: 27px;
+}
+
+.future-plans h3{
+    font-family: 'Instrument Sans';
+    font-weight: 500;
+    font-size: 14px;
+    color: #002C2C;
+}
+
+.future-plans h4{
+    font-weight: 600;
+    font-size: 14px;
+    color: #002C2C;
+}
+
+.future-plans .hr{
+    width: 173px;
+    height: 6px;
+    background-color: #FFF0EC;
+    border: none;
+    border-radius: 15px;
+    margin-top: 7px;
+}
+
+.future-plans .two, 
+.future-plans .three,
+.future-plans .four{
+    width: 263px;
+}
+
+.future-plans .five{
+    width: 173px;
+}
+
+.future-plans .six,
+.future-plans .seven{
+    width: 356px;
+}
+
+.one{
+    width: 173px;
+    height: 6px;
+    color: #f33b09;
+}
+
+.plain-sheet{
+    margin-left: 24px;
+}
+
+.plain-sheet .title h2{
+    font-family: 'Instrument Sans';
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.create-plans{
+    background-color: #FFFFFF;
+    height: 166px;
+    width: 390px;
+    border-radius: 12px;
+    padding: 57px 70px;
+    align-items: center;
+}
+
+.create-plans h3{
+    font-family: 'Instrument Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 7px;
+}
+
+@media screen and (max-width: 375px){
+   .welcome-container .invest-contain{
+        width: 300px;
+    }
+
+    .investments_container{
+        display: block;
+    }
+
+    .help{
+        width: 21.438rem;
+        height: 131px;
+        margin-top: 20px;
+    }
+
+    .invest-record{
+        display: block;
+    }
+
+    .invest-record .money{
+        width: 21.438rem;
+        overflow: scroll;
+    }
+
+    .invest-record input{
+        width: 89px;
+        height: 28px;
+    }
+
+    .plain-sheet{
+        margin-top: 39px;
+        padding-bottom: 55px;
+        margin-left: 0px;
+    }
+
+    .create-plans{
+        width: 21.438rem;
+    }
+
+}

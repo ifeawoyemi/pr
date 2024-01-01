@@ -1,0 +1,100 @@
+.verify-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.verify {
+    padding: 200px 120px;
+}
+
+.verify-icon {
+    padding-bottom: 32px;
+}
+
+.verify h1 {
+    font-weight: 500;
+    font-size: 36px;
+    color: #002C2C;
+    padding-bottom: 12px;
+}
+
+.verify p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #485467;
+    font: 'SF Pro Display';
+    padding-bottom: 37px;
+}
+
+form {
+    display: block;
+}
+
+form input {
+    width: 480px;
+    height: 58px;
+    font-size: 16px; 
+    color: #A0AEC0;
+    padding: 16px;
+    border: 1px solid #E9EAEC;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+input::placeholder{
+    font-weight: 400;
+    color: #A0AEC0;
+}
+
+form button {
+    width: 480px;
+    height: 66px;
+    padding: 21px 24px;
+    gap: 8px;
+    background: linear-gradient(0deg, #103333, #103333),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    border: none;
+    border-radius: 10px;
+    color: #B2FA63;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+
+form h5{
+    font-family: 'Instrument Sans';
+    font-weight: 600;
+    font-size: 14px;
+    color: #485467;
+}
+
+@media screen and (max-width: 375px){
+    .verify-container{
+        display: block;
+    }
+
+    .verify {
+        padding: 40px 0 0 20px;
+    }
+
+    .verify h1{
+        font-size: 24px;
+        padding-bottom: 37px;
+    }
+
+    .verify p{
+        font-weight: 400;
+        font-size: 14px;
+        width: 337px;
+    }
+
+    form input{
+        margin-top: 12px;
+        width: 343px;
+    }
+
+    form button{
+        width: 343px;
+    }
+}
