@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "./afrione.css"
+import "./afrione.css";
+import LogoIcon from '../../components/images/Logos.png';
 
 const AfriOne = () => {
   return (
         <div className='Brand-container'>
             <div className='upper'>
               <div className='AfriLogo'>
-                {/* <LogoIcon/> */}DV
+                <img src={LogoIcon} alt="" />
               </div>
             </div>
             <div className='lower'>

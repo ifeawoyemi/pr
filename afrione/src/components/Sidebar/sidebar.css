@@ -5,10 +5,11 @@
 .afri-logo {
   /* background-image: url('../../components/images/Afrihomelogo.png'); */
   background-repeat: no-repeat;
-  width: 100.91px;
+  /* width: 50.91px; */
   padding: 0 0 0 0;
   cursor: pointer;
   margin-left: 55px;
+  /* margin-top: 25px; */
 }
 
 .nav {

@@ -1,22 +1,18 @@
 import React from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
-// import { AuthContext } from './AuthContext';
 import './sidebar.css';
+import SideLogo from '../images/SBLogos.png'
 
 const Sidebar = () => {
-  // const { logout } = useContext(AuthContext);
   const naviagte = useNavigate();
-
   const handleLogout = () =>{
-    // logout();
-
-    naviagte('/')
+    naviagte('/login')
   }
 
   return (
     <div className='side-container'>
       <div className='afri-logo'>
-        DV
+        <img src={SideLogo} style={{width: '35px'}} alt="" />
       </div>
       <div className='nav-contain'>
         <NavLink to='/dashboard' className='nav' style={{ textDecoration: 'none' }}>
