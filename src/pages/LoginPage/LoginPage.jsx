@@ -34,11 +34,11 @@ const LoginPage = () => {
     let user_data = JSON.parse(localStorage.getItem("user_db"));
 
     
-    const hg = user_data.find(user => user.email === email);
+    const client = user_data.find(user => user.email === email);
 
 
     console.log("This is the dataaaaa: ", user_data);
-    if (hg) {
+    if (client) {
 
         localStorage.setItem("current_email", JSON.stringify(email))
         navigate('/dashboard')

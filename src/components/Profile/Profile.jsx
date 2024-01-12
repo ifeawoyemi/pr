@@ -30,13 +30,13 @@ const Profile = () => {
     let users_data = JSON.parse(localStorage.getItem('user_db'));
     let user_email = JSON.parse(localStorage.getItem('current_email'));
 
-    const hg = users_data.find(user => user.email === user_email);
+    const client = users_data.find(user => user.email === user_email);
 
-    console.log('yes: ', hg)
-    setUsername(`${hg.firstName} ${hg.lastName}`);
-    setUserEmail(hg.email);
-    setMobileNumber(hg.mobileNumber);
-    setCountry(hg.country)
+    console.log('yes: ', client)
+    setUsername(`${client.firstName} ${client.lastName}`);
+    setUserEmail(client.email);
+    setMobileNumber(client.mobileNumber);
+    setCountry(client.country)
   }
 
   )

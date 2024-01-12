@@ -42,9 +42,9 @@ const SignUp = () => {
   const handleContinue = (e) => {
     e.preventDefault();
 
-    const hg = userDetails.find(user => user.email === email);
+    const client = userDetails.find(user => user.email === email);
 
-    if (hg) {
+    if (client) {
       swal({
         title: "Ooooppssss",
         text: "Email, is available in database. Kindly login",

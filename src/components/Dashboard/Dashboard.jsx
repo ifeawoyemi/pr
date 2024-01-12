@@ -44,10 +44,10 @@ const Dashboard = () => {
     let users_data = JSON.parse(localStorage.getItem("user_db"));
     let user_email = JSON.parse(localStorage.getItem("current_email"));
 
-    const hg = users_data.find(user => user.email === user_email);
+    const client = users_data.find(user => user.email === user_email);
 
-    console.log("This is the original: ", hg);
-    setUsername(hg.firstName)
+    console.log("This is the original: ", client);
+    setUsername(client.firstName)
 
   }, [])
 
